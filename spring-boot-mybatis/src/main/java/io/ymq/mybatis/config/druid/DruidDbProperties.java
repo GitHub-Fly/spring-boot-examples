@@ -41,7 +41,7 @@ public class DruidDbProperties {
 
     /**
      * 用来检测连接是否有效的sql，要求是一个查询语句，常用select
-     * 'x'。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。
+     * 'x'。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会起作用。
      */
     private String validationQuery = "SELECT USER()";
 

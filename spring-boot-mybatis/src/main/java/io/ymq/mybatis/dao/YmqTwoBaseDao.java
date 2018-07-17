@@ -6,12 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 
-/**
- * 描述:数据源 two
- *
- * @author yanpenglei
- * @create 2017-10-20 11:27
- **/
+// 数据源 two
 @Repository
 public class YmqTwoBaseDao extends BaseDao {
 
@@ -19,4 +14,5 @@ public class YmqTwoBaseDao extends BaseDao {
     public void setSqlSessionFactorYmqTwo(SqlSessionFactory sqlSessionFactory) {
         super.setSqlSessionFactory(sqlSessionFactory);
     }
+
 }

@@ -13,11 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import java.sql.SQLException;
 
-/**
- * 描述: 核心配置，配置数据源 事物 sqlSessionFactorYmqOne
- * author: yanpenglei
- * Date: 2017/9/8 18:21
- */
+// 核心配置，配置数据源 事务 sqlSessionFactorYmqOne
 @Configuration
 @EnableTransactionManagement
 public class DBOneConfiguration extends AbstractDruidDBConfig {

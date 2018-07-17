@@ -17,7 +17,6 @@ public class BaseUtils {
 	 * @return
 	 */
 	public static <T> String makeClazzPath(T object, String methodName) {
-
 		if (object == null) {
 			return "";
 		}
@@ -26,16 +25,13 @@ public class BaseUtils {
 		buffer.append(".");
 		buffer.append(methodName);
 		return buffer.toString();
-
 	}
 
 	public static <T> String makeClazzPath(Class<T> clazz, String methodName) {
-
 		StringBuffer buffer = new StringBuffer();
 		buffer.append(clazz.getName());
 		buffer.append(".");
 		buffer.append(methodName);
 		return buffer.toString();
-
 	}
 }

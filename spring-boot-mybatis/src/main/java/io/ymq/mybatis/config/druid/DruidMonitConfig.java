@@ -16,11 +16,7 @@ import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 
-/**
- * 描述: druid监控配置
- * author: yanpenglei
- * Date: 2017/10/20 11:00
- */
+// druid监控配置
 @EnableConfigurationProperties(DruidDbProperties.class)
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 public class DruidMonitConfig {

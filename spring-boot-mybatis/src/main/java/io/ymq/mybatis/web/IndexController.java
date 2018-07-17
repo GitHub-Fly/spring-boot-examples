@@ -13,12 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * 描述:测试 Controller
- *
- * @author yanpenglei
- * @create 2017-10-20 10:32
- **/
+// 测试 Controller
 @RestController
 public class IndexController {
 

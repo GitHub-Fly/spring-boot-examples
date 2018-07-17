@@ -6,12 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 
-/**
- * 描述:数据源 one
- *
- * @author yanpenglei
- * @create 2017-10-20 11:27
- **/
+// 数据源 one
 @Repository
 public class YmqOneBaseDao extends BaseDao {
 

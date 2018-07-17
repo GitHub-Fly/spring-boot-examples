@@ -20,11 +20,7 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.Properties;
 
-/**
- * 描述: 提供基础数据源功能
- * author: yanpenglei
- * Date: 2017/9/8 19:50
- */
+// 描述: 提供基础数据源功能
 @Configuration
 @EnableConfigurationProperties(DruidDbProperties.class)
 @Import({DruidMonitConfig.class})

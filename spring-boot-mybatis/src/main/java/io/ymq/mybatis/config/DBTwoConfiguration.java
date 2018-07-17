@@ -13,11 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import java.sql.SQLException;
 
-/**
- * 描述: 核心配置，配置数据源 事物 sqlSessionFactorYmqTwo
- * author: yanpenglei
- * Date: 2017/9/8 18:21
- */
+// 核心配置，配置数据源 事物 sqlSessionFactorYmqTwo
 @Configuration
 @EnableTransactionManagement
 public class DBTwoConfiguration extends AbstractDruidDBConfig {
@@ -37,7 +33,6 @@ public class DBTwoConfiguration extends AbstractDruidDBConfig {
     public DruidDataSource dataSource() {
         return super.createDataSource(url, username, password);
     }
-
 
     @Bean(name = "sqlSessionFactorYmqTwo")
     @Primary
